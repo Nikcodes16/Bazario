@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1025385507651",
+    "project_id": "bazario-82da0",
+    "storage_bucket": "bazario-82da0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025385507651:android:f89872042856dfac639df6",
+        "android_client_info": {
+          "package_name": "com.ecommerceapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCljNKvcc7gq7GuQH6gB4JsDhh-Ctk3_2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

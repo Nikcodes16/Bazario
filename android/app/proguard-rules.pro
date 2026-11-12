@@ -8,3 +8,15 @@
 #   http://developer.android.com/guide/developing/tools/proguard.html
 
 # Add any project specific keep options here:
+# Optimize and shrink React Native Firebase native structures
+-keep class io.invertase.firebase.** { *; }
+-dontwarn io.invertase.firebase.**
+
+# Strip out unnecessary metadata from Notifee notifications
+-keep class io.invertase.notifee.** { *; }
+-dontwarn io.invertase.notifee.**
+
+# Remove tracking names and source file lines from the native error logs
+-printmapping mapping.txt
+-renamesourcefileattribute SourceFile
+-keepattributes SourceFile,LineNumberTable
